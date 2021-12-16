@@ -1,0 +1,38 @@
+Reveiw 01:
+
+webbased application /websites
+
+standalone application / Desktop application
+
+Database
+API    webservices
+
+Webbased applications--Selenium can only automate webase applications:
+
+Automation Testing:
+Frequent testing
+Efficeincy
+Suite
+
+Selenium:
+
+Selenium IDE
+S     RC
+S
+s    Grid
+
+Why selenium:  It supports multiple programming language,   Java Pythong ruby,  and so forth...
+
+cross browser testing is possible
+chrome, fireforx, edge, opera, sefara
+platform independent = it worked on windows, linux, mac os)
+
+
+I need the folloiwing:
+Browser --- URl---
+
+get()  -- further actions such back, forward, referesh not possible
+navigate()   ---further actions such back, forward, referesh possible
+close()  --- close will only close the current tab
+quit -- will only close the entire browser
+

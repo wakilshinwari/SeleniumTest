@@ -1,4 +1,4 @@
-package com.syntax.class01.HWClass5;
+package com.syntax.class01.HWClass4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
