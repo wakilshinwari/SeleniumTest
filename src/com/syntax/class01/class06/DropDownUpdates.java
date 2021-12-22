@@ -1,4 +1,4 @@
-package com.syntax.class01.HWClass4;
+package com.syntax.class01.class06;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class dropDown {
+public class DropDownUpdates {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 
@@ -29,7 +29,7 @@ public class dropDown {
         //we pass the index of days ( for instance, sunday is 1 and Monday is 2)
         //select the value from drop dwon using select by index
 
-         //Select by INdex
+        //Select by INdex
 
 //        select.selectByIndex(1);
 //        Thread.sleep(2000);
@@ -37,7 +37,7 @@ public class dropDown {
 //        Thread.sleep(2000);
 //        select.selectByIndex(7);
 
-       //Select By Visible text
+        //Select By Visible text
 
         select.selectByVisibleText("Thursday");
 
@@ -54,8 +54,9 @@ public class dropDown {
 //
 //        }
         for (int i=0; i<Size; i++){
-           String OptionText = alloptions.get(i).getText();
+            String OptionText = alloptions.get(i).getText();
             System.out.println(OptionText);
         }
     }
 }
+
