@@ -1,6 +1,5 @@
 package com.syntax.class01.class09;
 
-import com.sun.org.apache.xpath.internal.operations.String;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,8 +14,6 @@ public class StaticWebtable {
     public static java.lang.String url="https://syntaxprojects.com/table-search-filter-demo.php";
 
     public static void main(String[] args) {
-
-
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
@@ -32,7 +29,7 @@ public class StaticWebtable {
         // 2. iterate through each webelement and get the text out of it
 
         for (WebElement row : tableRows) {
-            java.lang.String text1 = row.getText();
+            String text1 = row.getText();
             System.out.println(text1);
         }
         List<WebElement> tableHeads =driver.findElements(By.xpath("//*[@id='task-table']/thead/tr/th"));
